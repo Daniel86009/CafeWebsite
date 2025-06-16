@@ -32,6 +32,11 @@ body {
   color: white;
 }
 
+.topbar img {
+  float: right;
+  max-height: 55px;
+}
+
 .bgImg1, .bgImg2, .bgImg3 {
   position: relative;
   background-attachment: fixed;
@@ -42,7 +47,7 @@ body {
 
 .bgImg1 {
   background-image: url("./Imgs/CoffeePour.jpg");
-  min-height: 540px;
+  min-height: 100vh;
 }
 
 .bgImg2 {
@@ -72,7 +77,8 @@ body {
 }
 
 .menuimg {
-  height: 500px;
+  width: 80vw;
+  text-align: center;
 }
 
 .instagram {
