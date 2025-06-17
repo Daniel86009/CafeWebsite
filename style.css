@@ -37,7 +37,7 @@ body {
   max-height: 55px;
 }
 
-.bgImg1, .bgImg2, .bgImg3, .bgImg1B, .bgImg2B{
+.bgImg1, .bgImg2, .bgImg3, .bgImg1B, .bgImg2B, .bgImg3B{
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -63,6 +63,12 @@ body {
 .bgImg2B {
   background-image: url("./Imgs/BeanFarmer.avif");
   min-height: 450px;
+}
+
+.bgImg3B {
+  background-image: url("./Imgs/BeanFarmer2.avif");
+  min-height: 400px;
+  background-position: 0 100px;
 }
 
 .caption {
