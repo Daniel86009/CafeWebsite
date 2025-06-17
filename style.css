@@ -37,7 +37,7 @@ body {
   max-height: 55px;
 }
 
-.bgImg1, .bgImg2, .bgImg3 {
+.bgImg1, .bgImg2, .bgImg3, .bgImg1B, .bgImg2B{
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -52,7 +52,17 @@ body {
 
 .bgImg2 {
   background-image: url("./Imgs/CoffeeBeans.jpg");
-  min-height: 400px;
+  min-height: 450px;
+}
+
+.bgImg1B {
+  background-image: url("./Imgs/LibraryCafe.jpg");
+  min-height: 100vh;
+}
+
+.bgImg2B {
+  background-image: url("./Imgs/BeanFarmer.avif");
+  min-height: 450px;
 }
 
 .caption {
@@ -74,6 +84,10 @@ body {
 .body1 {
   text-align: justify;
   padding: 50px 80px;
+}
+
+.aboutPara {
+  width: 50vw;
 }
 
 .menuimg {
