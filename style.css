@@ -106,6 +106,10 @@ body {
   text-align: center;
 }
 
+.video {
+  width: 60vw;
+}
+
 .instagram {
   font-family: sans-serif;
   text-decoration: none;
